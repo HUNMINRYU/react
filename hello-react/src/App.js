@@ -5,9 +5,9 @@ function App() {
   return (
     <>
       <div className="react"> {name} </div>
-      <input></input>
+      <input />
     </>
   ); 
 }
-// 닫는태그가 반드시 있어야함
+// 닫는태그대신 self-closing태그
 export default App;
