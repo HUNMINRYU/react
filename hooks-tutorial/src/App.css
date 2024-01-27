@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-.container{
-  /* background-color: lightblue; */
-  
-  padding: 10px;
-  box-sizing: border-box;
-}
-=======
 .App {
   text-align: center;
 }
@@ -44,4 +36,3 @@
     transform: rotate(360deg);
   }
 }
->>>>>>> 214f58c78a298ba68cc997b6b1b4544f3f56126a

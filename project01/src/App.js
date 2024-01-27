@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import "./App.css";
 
 function App() {
@@ -77,6 +78,28 @@ function App() {
       
       {/* 조건이 세개 이상일 때 */}
       {text}
+=======
+import logo from "./logo.svg";
+import "./App.css";
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          안녕하세요 <code>src/App.js</code> 저는 류훈민입니다.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+>>>>>>> 214f58c78a298ba68cc997b6b1b4544f3f56126a
     </div>
   );
 }
