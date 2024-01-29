@@ -28,18 +28,18 @@ const Ex01 = () => {
    */
 
   let num = 0;
-  const [num2, setNUM2] = useState(0);
+  const [num2, setNum2] = useState(0);
 
   const ck = () => {
     console.log("click!");
     num += 1;
     console.log("현재 숫자는 :", num);
 
-    setNUM2(num2 + 1);
+    setNum2(num2 + 1);
   };
 
   const minus = () => {
-    setNUM2(num2 - 1)
+    setNum2(num2 - 1)
   }
 
   return (
@@ -47,7 +47,7 @@ const Ex01 = () => {
       <p>단순 변수 : {num}</p>
       <p>state : {num2}</p>
       <button onClick={ck}>+1</button>
-      <button onClick={()=>{setNUM2(num2-1)}}>-1</button>
+      <button onClick={()=>{setNum2(num2-1)}}>-1</button>
     </div>
   );
 };
