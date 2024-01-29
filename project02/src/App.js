@@ -18,12 +18,20 @@ function App() {
 
   /*
     Props (프로퍼티, 프롭스)
+    - 상위 (부모) 컴포넌트에서 하위 (자식) 컴포넌트로 값을 전달할 때 사용
   */
+
+  /* Q. 소희씨가 좋아하는 메뉴를 레몬에이드로 바꿔주고,
+   *    가격 또한 2500원으로 수정해주세요!
+        이 때, 선아씨의 정보는 변하지 않게 해주세요.
+   */
+
+  let price = 2500;
 
   return (
     <div>
-      <MenuItem></MenuItem>
-      <MenuItem></MenuItem>
+      <MenuItem name="김소희" price={price} menu="레몬에이드"></MenuItem>
+      <MenuItem name="이선아" price={price} menu="아이스 아메리카노"></MenuItem>
     </div>
   );
 }
