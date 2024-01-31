@@ -1,0 +1,20 @@
+{
+  "list" : [
+    {
+      "name" : "💛커스터드푸딩💛",
+      "price" : "3300원",
+      "content" : "푸딩의 기본 커스타드 푸루는  시럽과 함께 당도를 조절하며 드세요  커스터드 푸딩의 까만점은 바닐라빈씨 입니당",
+      "imgSrc" : "https://image.idus.com/image/files/37fca343dd9d4a5a960d3328a327f97b_720.jpg"
+    }, {
+      "name" : "❤️딸기 우유 푸딩❤️",
+      "price" : "3500원",
+      "content" : "청은 따로 포장 되어갑니다! 우유 푸딩에 딸기청이 함께 갑니다 딸기 푸딩과 함께 딸기 계절을 즐겨보세요",
+      "imgSrc" : "https://image.idus.com/image/files/6a42dd09ac714b9594e13b1ba00c81d0_720.jpg"
+    }, {
+      "name" : "🤍우유 푸딩🤍",
+      "price" : "3700원",
+      "content" : "많은 분들이 찾으셨던 담백 깔끔한 우유 푸딩 아이들 간식으로도 좋아요",
+      "imgSrc" : "https://image.idus.com/image/files/b1da8dee3336466bbc784c7a2637bb43_720.jpg"
+    }
+  ]
+}

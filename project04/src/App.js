@@ -30,7 +30,8 @@ function App() {
 
      {newStudents}
 
-     {students.map(item=> <p>안녕하세요 저는 <b>{item.name}</b>입니다. 제 나이는 <b>{item.age}</b>이에요.</p>)}
+     {students.map(item=> 
+          <p key={item.name}>안녕하세요 저는 <b>{item.name}</b>입니다. 제 나이는 <b>{item.age}</b>이에요.</p>)}
 
     </div>
   );
