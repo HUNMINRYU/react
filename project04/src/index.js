@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-// 1. map 함수 예제
+// 1. map 함수 예제, filter 함수
 // import App from './App';
 
 // 2. map 함수 실습

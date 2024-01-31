@@ -3,13 +3,13 @@ import React from 'react'
 
 const Ex02MenuItem = ({name, price, content, imgSrc}) => {
   return (
-    <div className='borad-item'>
-      <img src={imgSrc} width='200px' className='board-img'/>
-      <p className='board-name'>
+    <div>
+      <img src={imgSrc} width='200px'/>
+      <p>
         <span>{name}</span>{" "}
-        <span>{price}</span>
+        <span>{price}원</span>
       </p>
-      <p className='board-content'>{content}</p>
+      <p>{content}</p>
     </div>
   )
 }
